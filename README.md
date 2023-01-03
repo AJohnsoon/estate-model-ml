@@ -1,1 +1,2 @@
-# API-ML-MODEL
+# Architecture Model
+![Service Example](./docs/service.png)
