@@ -1,8 +1,8 @@
 import os
-from model import data_model
+import app
 from dotenv import load_dotenv, find_dotenv
 
 load_dotenv(find_dotenv())
 
 env_path = os.getenv('csv_data_path')
-data_model.DataAnalysis(env_path)
+app.data_analysis(env_path)
