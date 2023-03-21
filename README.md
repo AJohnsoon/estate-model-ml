@@ -1,2 +1,2 @@
 # Architecture Model
-![Service Example](./docs/service.png)
+![Service Example](./image/service.png)
