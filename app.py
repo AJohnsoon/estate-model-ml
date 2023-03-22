@@ -19,10 +19,8 @@ def data_analysis(base_path):
     Config()    
     try:
         data = pd.read_csv(base_path)
-        numeric_column = grid_model.data_column(data)
-        grid_model.grid(data, numeric_column)
+        grid_model.grid(data)
         plt.subplots_adjust(top=1.15, hspace=0.3)
         plt.show()
     except:
         print('Error on reading or loading file in BASE_PATH')
-

@@ -2,8 +2,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-def grid(data, numeric_column):
+def grid(data):
     # Grid Info
+    numeric_column = data_column(data)
     Fig, Line = plt.subplots(figsize=(3, 8))
     backgroud_color = '#f5f5f5'
     Fig.set_facecolor(backgroud_color)
